@@ -1,237 +1,276 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Profile:: CV</title>
-    <link href="https://fonts.googleapis.com/css?family=Mukta:300,400,500,600,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/vendors/@fortawesome/fontawesome-free/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/live-resume.css">
-</head>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
-<body>
-    <header>
-        <button class="btn btn-white btn-share ml-auto mr-3 ml-md-0 mr-md-auto"><img src="assets/images/share.svg" alt="share" class="btn-img">
-            SHARE</button>
-        <nav class="collapsible-nav" id="collapsible-nav">
-            <a href="index.html" class="nav-link active">HOME</a>
-            <a href="resume.html" class="nav-link">RESUME</a>
-            <a href="portfolio.html" class="nav-link">PORTFOLIO</a>
-            <a href="blog.html" class="nav-link">BLOG</a>
-            <a href="contact.html" class="nav-link">CONTACT</a>
-        </nav>
-        <button class="btn btn-menu-toggle btn-white rounded-circle" data-toggle="collapsible-nav"
-            data-target="collapsible-nav"><img src="assets/images/hamburger.svg" alt="hamburger"></button>
-    </header>
-    <div class="content-wrapper">
-        <aside>
-            <div class="profile-img-wrapper">
-                <img src="assets/images/Profile.jpeg" alt="profile">
-            </div>
-            <h1 class="profile-name">Nguyen Van Hau</h1>
-            <div class="text-center">
-                <span class="badge badge-white badge-pill profile-designation">Developer</span>
-            </div>
-            <nav class="social-links">
-                <a href="#!" class="social-link"><i class="fab fa-facebook-f"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-twitter"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-behance"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-dribbble"></i></a>
-                <a href="#!" class="social-link"><i class="fab fa-github"></i></a>
-            </nav>
-            <div class="widget">
-                <h5 class="widget-title">personal information</h5>
-                <div class="widget-content">
-                    <p>BIRTHDAY : 05 March 1997</p>
-                    <p>WEBSITE : www.example.com</p>
-                    <p>PHONE : +84 969 251 597</p>
-                    <p>MAIL : nguyenvanhauit1997@gmail.com</p>
-                    <p>Location : Bac Ninh, Viet Nam</p>
-                    <button class="btn btn-download-cv btn-primary rounded-pill"> <img src="assets/images/download.svg" alt="download"
-                        class="btn-img">DOWNLOAD CV </button>
-                </div>
-            </div>
-                        <!-- <div class="widget card">
-                <div class="card-body">
-                    <div class="widget-content">
-                        <h5 class="widget-title card-title">LANGUAGES</h5>
-                        <p>English : native</p>
-                        <p>Spanish : fluent</p>
-                        <p>Italian : fluent</p>
-                    </div>
-                </div>
-            </div> -->
-            <!-- <div class="widget card">
-                <div class="card-body">
-                    <div class="widget-content">
-                        <h5 class="widget-title card-title">INTERESTS</h5>
-                        <p>Video games</p>
-                        <p>Finance</p>
-                        <p>Basketball</p>
-                        <p>Theatre</p>
-                    </div>
-                </div>
-            </div> -->
-        </aside>
-        <main>
-            <section class="intro-section">
-                <h2 class="section-title">Hello, Nguyen Van Hau!</h2>
-                <p>Applying experience in programming skills and knowledge of technology to become a programmer, brings a lot of value to customers.</p>
-                <a href="#!" class="btn btn-primary btn-hire-me">HIRE ME</a>
-            </section>
-            <section class="resume-section">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <h6 class="section-subtitle">RESUME</h6>
-                        <h2 class="section-title">EDUCATION</h2>
-                        <ul class="time-line">
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">1998 - 2005</span>
-                                <h6 class="time-line-item-title">Master In Computer Science</h6>
-                                <p class="time-line-item-subtitle">MASTER, UNIVERSITY</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed tortor.</p>
-                            </li>
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">1995 - 1998</span>
-                                <h6 class="time-line-item-title">Studied at Harvard University</h6>
-                                <p class="time-line-item-subtitle">UNIVERSITY</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed tortor.
-                                </p>
-                            </li>
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">1993 - 1995</span>
-                                <h6 class="time-line-item-title">Studied at Oxford University</h6>
-                                <p class="time-line-item-subtitle">UNIVERSITY</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed tortor.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-6">
-                        <h6 class="section-subtitle">RESUME</h6>
-                        <h2 class="section-title">Experience</h2>
-                        <ul class="time-line">
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">2010 - 2014</span>
-                                <h6 class="time-line-item-title">UI/UX Designer</h6>
-                                <p class="time-line-item-subtitle">Web Agency</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed
-                                    tortor.</p>
-                            </li>
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">2008 - 2010</span>
-                                <h6 class="time-line-item-title">Web Designer</h6>
-                                <p class="time-line-item-subtitle">Apple Inc.</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed
-                                    tortor.
-                                </p>
-                            </li>
-                            <li class="time-line-item">
-                                <span class="badge badge-primary">2006 - 2008</span>
-                                <h6 class="time-line-item-title">Graphic Designer</h6>
-                                <p class="time-line-item-subtitle">Apple Inc.</p>
-                                <p class="time-line-item-content">Mauris magna sapien, pharetra consectetur fringilla
-                                    vitae, interdum sed
-                                    tortor.
-                                </p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section class="services-section">
-                <h6 class="section-subtitle">WHAT I DO</h6>
-                <h2 class="section-title">SERVICES</h2>
-                <div class="row">
-                    <div class="media service-card col-lg-6">
-                        <div class="service-icon">
-                            <img src="assets/images/001-target.svg" alt="target">
-                        </div>
-                        <div class="media-body">
-                            <h5 class="service-title">web designing</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.</p>
-                        </div>
-                    </div>
-                    <div class="media service-card col-lg-6">
-                        <div class="service-icon">
-                            <img src="assets/images/003-idea.svg" alt="bulb">
-                        </div>
-                        <div class="media-body">
-                            <h5 class="service-title">Graphic design</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="media service-card col-lg-6">
-                        <div class="service-icon">
-                            <img src="assets/images/002-development.svg" alt="development">
-                        </div>
-                        <div class="media-body">
-                            <h5 class="service-title">Development</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="media service-card col-lg-6">
-                        <div class="service-icon">
-                            <img src="assets/images/004-smartphone.svg" alt="smartphone">
-                        </div>
-                        <div class="media-body">
-                            <h5 class="service-title">Mobile design</h5>
-                            <p class="service-description">Mauris magna sapien, pharetra consectetur fringilla vitae, interdum sed
-                                tortor.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="testimonial-section">
-                <div id="testimonialCarousel" class="testimonial-carousel carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
-                                interdum sed tortor.</p>
-                            <img src="assets/images/Profile.jpeg" alt="profile" class="testimonial-img">
-                            <p class="testimonial-name">Nout Golstein</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
-                                interdum sed tortor.</p>
-                            <img src="assets/images/Profile.jpeg" alt="profile" class="testimonial-img">
-                            <p class="testimonial-name">Nout Golstein</p>
-                        </div>
-                        <div class="carousel-item">
-                            <p class="testimonial-content">Mauris magna sapien, pharetra consectetur fringilla vitae,
-                                interdum sed tortor.</p>
-                            <img src="assets/images/Profile.jpeg" alt="profile" class="testimonial-img">
-                            <p class="testimonial-name">Nout Golstein</p>
-                        </div>
-                    </div>
-                    <ol class="carousel-indicators">
-                        <li data-target="#testimonialCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#testimonialCarousel" data-slide-to="1"></li>
-                        <li data-target="#testimonialCarousel" data-slide-to="2"></li>
-                    </ol>
-                </div>
-            </section>
+    <title>One Page Resume</title>
 
-            <footer>Live Resume @ <a href="https://www.bootstrapdash.com" target="_blank" rel="noopener noreferrer">BootstrapDash</a>. All Rights Reserved 2020</footer>
-        </main>
+    <style type="text/css">
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font: 16px Helvetica, Sans-Serif;
+        line-height: 24px;
+        background: url(images/noise.jpg);
+      }
+      .clear {
+        clear: both;
+      }
+      #page-wrap {
+        width: 800px;
+        margin: 40px auto 60px;
+      }
+      #pic {
+        float: right;
+        margin: -30px 0 0 0;
+      }
+      h1 {
+        margin: 0 0 16px 0;
+        padding: 0 0 16px 0;
+        font-size: 42px;
+        font-weight: bold;
+        letter-spacing: -2px;
+        border-bottom: 1px solid #999;
+      }
+      h2 {
+        font-size: 20px;
+        margin: 0 0 6px 0;
+        position: relative;
+      }
+      h2 span {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        font-style: italic;
+        font-family: Georgia, Serif;
+        font-size: 16px;
+        color: #999;
+        font-weight: normal;
+      }
+      p {
+        margin: 0 0 16px 0;
+      }
+      a {
+        color: #999;
+        text-decoration: none;
+        border-bottom: 1px dotted #999;
+      }
+      a:hover {
+        border-bottom-style: solid;
+        color: black;
+      }
+      ul {
+        margin: 0 0 32px 17px;
+      }
+      #objective {
+        width: 500px;
+        float: left;
+      }
+      #objective p {
+        font-family: Georgia, Serif;
+        font-style: italic;
+        color: #666;
+      }
+      dt {
+        font-style: italic;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: right;
+        padding: 0 26px 0 0;
+        width: 150px;
+        float: left;
+        height: 100px;
+        border-right: 1px solid #999;
+      }
+      dd {
+        width: 600px;
+        float: right;
+      }
+      dd.clear {
+        float: none;
+        margin: 0;
+        height: 15px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="page-wrap">
+      <img src="images/cthulu.png" alt="Photo of Cthulu" id="pic" />
+
+      <div id="contact-info" class="vcard">
+        <!-- Microformats! -->
+
+        <h1 class="fn">Hau Nguyen Van</h1>
+
+        <p>
+          Cell: <span class="tel">+84 969.251.597</span><br />
+          Email:
+          <a class="email" href="mailto:nguyenvanhauit1997@gmail.com"
+            >nguyenvanhauit1997@gmail.com</a
+          >
+        </p>
+      </div>
+
+      <div id="objective">
+        <p>
+          A motivated individual with in-depth knowledge of languages and
+          development tools, seeking a position in a growth-oriented company
+          where I can use my skills to the advantage of the company while having
+          the scope to develop my own skills.
+        </p>
+      </div>
+
+      <div class="clear"></div>
+
+      <dl>
+        <dd class="clear"></dd>
+
+        <dt>Education</dt>
+        <dd>
+          <h2>Infomation and Communications Technology</h2>
+          <p><strong>Major:</strong>Software Engineer<br /></p>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Skills</dt>
+        <dd>
+          <h2>Technology skills</h2>
+          <p>
+            Html, css, js, web3, cosmjs, react, nodejs, express, mongodb, mysql,
+            git/github, gitlab, bitbuket, redmind, jira, trello, notion, vultr,
+            aws
+          </p>
+
+          <!-- <h2>Computer skills</h2>
+                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p> -->
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Experience</dt>
+        <dd>
+          <h2>
+            AgileTech Viet Nam
+            <span>Intern/Developer - Aug 2019-July 2020</span>
+          </h2>
+          <ul>
+            <li>
+              It is a quality outsourcing company specializing in Website/Mobile
+              Apps, Blockchain services, AI – big data Services
+            </li>
+            <!-- <li>Helped coordinate managers to grow cult following</li>
+            <li>Provided untimely deaths to all who opposed</li> -->
+          </ul>
+
+          <h2>
+            Chainos Solution
+            <span>Developer, August 2020 - March-2022</span>
+          </h2>
+          <ul>
+            <li>
+              Delivers exceptional software development products including
+              WebApp, MobileApp
+            </li>
+            <!-- <li>Reduced theft and property damage percentages</li>
+            <li>Janitorial work, Laundry</li> -->
+          </ul>
+
+          <h2>
+            Oraichain Labs
+            <span>Blockchain Developer, April 2022 - Now</span>
+          </h2>
+          <ul>
+            <li>
+              It ​​is an information technology company, focusing on developing
+              a blockchain platform to support developers in connecting and
+              integrating queries (APIs) about artificial intelligence.
+              Intelligence). Based on the developed platform, ORAICHAIN ​​has
+              deployed many products related to blockchain technology and
+              artificial intelligence (AI) such as decentralized finance (DeFi).
+            </li>
+            <!-- <li>Reduced theft and property damage percentages</li>
+            <li>Janitorial work, Laundry</li> -->
+          </ul>
+        </dd>
+
+        <dd class="clear"></dd>
+
+        <dt>Project</dt>
+        <dd>
+          <h2>
+            Owallet
+            <span>Developer -> 6-2022-Now</span>
+          </h2>
+          <ul>
+            <li>Description: Extension for Oraichain</li>
+            <li>
+              Links:
+              <a
+                href="https://chrome.google.com/webstore/detail/owallet/hhejbopdnpb
+              jgomhpmegemnjogflenga"
+                target="_blank"
+              >
+                Owallet</a
+              >
+            </li>
+            <li>My position: FE</li>
+            <li>Teamsize: 5</li>
+            <li>My responsibilities: Maintain Project</li>
+            <li>Technologies used: ReactJS, Redux, Web3, CosmJs</li>
+          </ul>
+
+          <h2>
+            Oraidex
+            <span>Developer -> 3-2022-Now</span>
+          </h2>
+
+          <ul>
+            <li>Description: Decentralized Exchange for Oraichain</li>
+            <li>
+              Links:
+              <a href="https://oraidex.io/" target="_blank"> Oraidex</a>
+            </li>
+            <li>My position: FE</li>
+            <li>Teamsize: 6</li>
+            <li>My responsibilities: Maintain Project</li>
+            <li>Technologies used: ReactJS, Redux, Web3, CosmJs</li>
+          </ul>
+
+          <h2>
+            OraiScan
+            <span>Developer -> 3-2022-Now</span>
+          </h2>
+          <ul>
+            <li>Description: Oraiscan Block Explorer for Oraichain</li>
+            <li>
+              Links:
+              <a href="https://scan.orai.io/" target="_blank"> Oraiscan</a>
+            </li>
+            <li>My position: FE + BE</li>
+            <li>Teamsize: 3</li>
+            <li>My responsibilities: Maintain Project</li>
+            <li>Technologies used: ReactJS, Redux, Web3, CosmJs, Golang</li>
+          </ul>
+        </dd>
+        <dd class="clear"></dd>
+
+        <dt>Hobbies</dt>
+        <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+
+        <dd class="clear"></dd>
+
+        <!-- <dt>References</dt>
+        <dd>Available on request</dd>
+
+        <dd class="clear"></dd> -->
+      </dl>
+
+      <div class="clear"></div>
     </div>
-    <script src="assets/vendors/jquery/dist/jquery.min.js"></script>
-    <script src="assets/vendors/@popperjs/core/dist/umd/popper-base.min.js"></script>
-    <script src="assets/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script src="assets/js/live-resume.js"></script>
-</body>
-
+  </body>
 </html>
